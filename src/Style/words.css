@@ -1,0 +1,33 @@
+.words-container{
+  border: 3px red solid;
+  border-radius: 20px;
+  letter-spacing: 5px;
+  box-shadow: 0px 0px 5px red;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.words-title {
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid red;
+  box-shadow: 0px 0px 5px red;
+  padding: 20px;
+  border-radius: 10px ;
+}
+
+.words-list {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.words {
+  padding: 3px;
+}
+
+.strikediag {
+    background: linear-gradient(to left top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);
+  }
+  .withpadding {
+    padding: 0 0.15em;
+  }

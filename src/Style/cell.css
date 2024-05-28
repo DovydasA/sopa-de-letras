@@ -1,0 +1,75 @@
+.cell-grid2 {
+    width: 50%;
+    height: 50%;
+    border-radius: 2px;
+    border: 1px red solid;
+    margin: auto;
+    text-align: center;
+}
+
+.cell2 {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px green solid;
+    padding: 1%;
+    text-align: center;
+    width: 5%;
+    height: 30px;
+    font-size: 14px;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.cell-grid {
+    margin: auto;
+    border: 3px red solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px red;
+    padding: 5px;
+}
+
+.cell-row {
+    display: flex;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border: 1px grey solid;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.highlight-border {
+    border: 1px red solid ;
+    background-color: black;
+    color: white;
+}
+
+.strike-down-right {
+    display: inline-block;
+    position: relative;
+  }
+  .strike-down-right::before {
+    content: '';
+    position: absolute;
+    left: -0.1em;
+    right: -0.1em;
+    top: -0.1em;
+    bottom: -0.1em;
+    background: linear-gradient(to right top, transparent 50.0%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);
+    pointer-events: none;
+  }
